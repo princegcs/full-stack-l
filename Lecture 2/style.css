@@ -1,0 +1,55 @@
+/* descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~) */
+
+
+/* =====================Descendant Selector======================================= */
+/* div li{
+      color: aqua;
+}  */
+
+/* =====================child ========================== */
+
+div>p{
+    color: rgb(236, 127, 2);
+}
+
+
+/* ====================adjacent sibling selector (+)======================= */
+
+li + li {
+    color: yellow;
+}
+
+/* ====================General Sibling Selector (~)======================== */
+
+li ~ li {
+    color: blueviolet;
+}
+
+/* =======================================Anchor Pseudo-classes============================================= */
+
+/* L= link 
+   V = visited
+   H = hover
+   A = Activate
+    */
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: orangered;
+}
+
+ /* a:visited{
+    color: brown;
+ } */
+
+ 
