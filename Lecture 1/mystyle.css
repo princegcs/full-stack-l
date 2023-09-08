@@ -1,0 +1,29 @@
+h2{
+    color : red;
+}
+/* .para{
+    color: blue;
+} */
+.go{
+    color: red;
+}
+.go{
+    color: yellow;
+}
+
+#p1{
+    color: aqua;
+}
+
+.cool{
+    color: yellowgreen;
+}
+
+/* attribute*/
+a[href="google.com"]{
+    color: blueviolet;
+}
+
+p{
+    color: blueviolet;
+}
