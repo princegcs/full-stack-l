@@ -1,0 +1,33 @@
+div.container div.child1{
+    height: 200px;
+    width: 100px;
+    background-color: blueviolet;
+
+
+    /* float: right; */
+
+    float: left;
+
+
+}
+
+.child2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+
+    float: right;
+    
+}
+
+/* float,position use as alternative for flex and grid but it is touugh to implement */
+
+.container{
+    border: 2px solid yellow;
+}
+
+.clearfix{
+    clear: right;
+    display: block;
+}

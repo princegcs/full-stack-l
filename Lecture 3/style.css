@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ div{
+    background-color: aquamarine; 
+}
+
+div .container{
+    background-color: blueviolet;
+    height: 70vh;
+    width: 60vw;
+}
+
+/* div.child{
+    background-color: blue;
+    height: 30vh;
+    width: 40vw;
+} */
+
+/* vh,vw,pixel/....above */ 
+div .child{
+    background-color: green;
+    height: 30%;
+}
+
+rm em font u

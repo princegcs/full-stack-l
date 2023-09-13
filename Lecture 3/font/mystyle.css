@@ -1,0 +1,25 @@
+div #para p{
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 20px;   default 16px  */
+
+    font-size: 1.5rem;  
+
+    font-style: italic;
+    font-weight: bold;
+
+    /* rem : root element ke according, em parent container ke accid
+
+}
+
+
+html{
+    font-size: 20px;   /*by deafult 16px, it it root element*/
+}
+
+div#para{
+    font-size: 40px;
+}
+
+
+/* font family */
+

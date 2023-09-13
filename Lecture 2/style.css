@@ -11,9 +11,9 @@ general sibling selector (~) */
 
 /* =====================child ========================== */
 
-div>p{
+/* div>p{
     color: rgb(236, 127, 2);
-}
+} */
 
 
 /* ====================adjacent sibling selector (+)======================= */
@@ -22,11 +22,14 @@ li + li {
     color: yellow;
 }
 
+ol li + li{
+    color: red;
+}
 /* ====================General Sibling Selector (~)======================== */
 
-li ~ li {
+/* li ~ li {
     color: blueviolet;
-}
+} */
 
 /* =======================================Anchor Pseudo-classes============================================= */
 
