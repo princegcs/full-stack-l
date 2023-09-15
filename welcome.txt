@@ -1,1 +1,2 @@
-hello
+create nav bar of medium.com using float (dont use flex)
+border radius.

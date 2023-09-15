@@ -1,0 +1,43 @@
+
+div .child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    float: left;
+    
+}
+
+/* div#child3{
+     position: relative; 
+    top: 20px;
+    left: 30px;
+} */
+
+/* div#child2{
+ position: absolute; works in respect of first parent pos 
+   bottom: 0;
+  right: 0;
+
+} */ 
+
+
+/* div#child4{
+    position: fixed;
+
+    right: 0;
+} */
+
+
+div#child4{
+    margin-top: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+
+.cont{
+    height: 5000px;
+    border: 2px solid yellow;
+    width: 60vw;
+    position: relative;
+}
